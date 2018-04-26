@@ -6,6 +6,8 @@ The implementation provides a simple, fairly naive LRU based on a `std::map` for
 
 The `taxratelru.hpp` file contains the implementation.  Test code is provided in `test.cpp`.
 
+The coverage report has been committed and can be viewed [here](https://htmlpreview.github.io/?https://raw.githubusercontent.com/bennbollay/taxrate_cache/master/test_coverage/coding_test/index.html).
+
 ## Usage
 
 ```
