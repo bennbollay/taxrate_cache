@@ -2,9 +2,14 @@
 
 This repository demonstrates a simple answer for a "make a cache" type interview question, including memory leak testing (via valgrind), and coverage reporting (via lcov).
 
-The implementation provides a simple, fairly naive LRU based on a `std::map` for lookups, and a `std::list` for managing LRU eviction.  In lieu of actually generating sensical tax rate values, a random number is utilized.
+You can see the original problem description by running `./PROBLEM.sh` - the description is encoded in `base64` to avoid registering on search engines.
 
-The `taxratelru.hpp` file contains the implementation.  Test code is provided in `test.cpp`.
+The implementation provides a simple, fairly naive LRU based on a `std::map`
+for lookups, and a `std::list` for managing LRU eviction.  In lieu of actually
+generating sensical tax rate values, a random number is utilized.
+
+The `taxratelru.hpp` file contains the implementation.  Test code is provided
+in `test.cpp`.
 
 The coverage report has been committed and can be viewed [here](https://htmlpreview.github.io/?https://raw.githubusercontent.com/bennbollay/taxrate_cache/master/test_coverage/index.html).
 
